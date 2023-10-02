@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <item android:id="@+id/shop"
+        android:title="@string/shop"
+        android:icon="@drawable/ic__shopping_cart"/>
+
+    <item android:id="@+id/missions"
+        android:title="@string/Missions"
+        android:icon="@drawable/ic_missions"/>
+
+    <item android:id="@+id/family"
+        android:title="@string/Family"
+        android:icon="@drawable/ic_family"/>
+</menu>

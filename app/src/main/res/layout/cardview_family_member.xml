@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:backgroundTint="@android:color/transparent"
+    app:strokeWidth="0dp"
+    app:cardCornerRadius="30dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imgProfilePicture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewFamilyMemberFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="Full Name"
+            android:textColor="@color/indigo"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewScore"
+            app:layout_constraintStart_toEndOf="@+id/imgProfilePicture"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewFamilyMemberRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/opensans_light"
+            android:text="Role"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewFamilyMemberFullName"
+            app:layout_constraintStart_toEndOf="@+id/textViewFamilyMemberFullName" />
+
+        <TextView
+            android:id="@+id/textViewScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_light"
+            android:text="Score:"
+            android:textColor="@color/indigo"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfilePicture"
+            app:layout_constraintStart_toStartOf="@+id/textViewFamilyMemberFullName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFamilyMemberFullName" />
+
+        <TextView
+            android:id="@+id/textViewFamilyMemberScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:fontFamily="@font/opensans_light"
+            android:text=""
+            android:textColor="@color/indigo"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewScore"
+            app:layout_constraintStart_toEndOf="@+id/textViewScore"
+            app:layout_constraintTop_toTopOf="@+id/textViewScore" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnArrow"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:visibility="gone"
+            app:icon="@drawable/ic_arrow_down"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="@android:color/transparent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAdminToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="Make admin"
+            android:visibility="gone"
+            app:icon="@drawable/outline_add_moderator_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnKick"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfilePicture"
+            tools:visibility="visible" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnKick"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="Kick Member"
+            android:visibility="gone"
+            app:iconTint="@color/red"
+            android:textColor="@color/red"
+            app:strokeColor="@color/red"
+            app:icon="@drawable/outline_person_remove_24"
+            app:layout_constraintEnd_toStartOf="@+id/btnAdminToggle"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfilePicture"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

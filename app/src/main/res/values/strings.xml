@@ -1,0 +1,68 @@
+<!--
+Font Guide:
+TextView = roboto
+EditText = publicsans_light
+Button = nexademo_bold
+-->
+<resources>
+    <string name="app_name">Hearth</string>
+
+    // general
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="copy">Copy</string>
+    <string name="logout">Log out</string>
+
+    // start of bottom navigation bar
+    <string name="shop">Shop</string>
+    <string name="Missions">Missions</string>
+    <string name="Family">Family</string>
+    // end of bottom navigation bar
+
+    // start of log in page
+    <string name="login_click_here_to_sign_up">Click here to Sign up</string>
+    // end of log in page
+
+    // start of sign up page
+    <string name="signup_firstname">First name</string>
+    <string name="signup_familyname">Family name</string>
+    <string name="signup_back_to_log_in">Back to login</string>
+    // end of sign up page
+
+    // start of create family or join page
+    <string name="createjoin_create_family">Create Family</string>
+    <string name="createjoin_join_with_code">Join with Code</string>
+    <string name="createjoin_the_flame_that_brings">The flame that brings</string>
+    <string name="createjoin_family_together">family together</string>
+    // end of create family or join page
+
+    // start of create family page
+    <string name="create_create_a_hearth_family">Create a Hearth Family</string>
+    <string name="create_hearth_family_name">Family Name</string>
+    <string name="create_share_this_code_to_your_family">Share this code to your family</string>
+    <string name="create">Create</string>
+    // end of create family page
+
+    // start of join family page
+    <string name="join_join_a_hearth_family">Join a Hearth Family</string>
+    <string name="join_family_code">Family Code</string>
+    <string name="join">Join</string>
+    // end of join family page
+
+    // start of menu activity
+    <string name="edit_profile">Edit Profile</string>
+    // end of menu activity
+
+    // start of family activity
+    <string name="edit_family_details">Edit Family Details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    // end of family activity
+
+    // start of shop activity
+    <string name="purchase">Purchase</string>
+    // end of shop activity
+
+</resources>

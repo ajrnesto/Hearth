@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hearth">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_hearth"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_hearth_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hearth">
+        <activity
+            android:name=".activities.MissionLogsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.RequestJoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditFamilyDetailsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".authentication.ResetPasswordActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.ChatActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LeaderboardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PomodoroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MissionImageBrowserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ImageBrowserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ManageMissionActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.EditFamilyMemberActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.ManageShopActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FamilyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShopActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MissionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.JoinFamilyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".authentication.CreateFamilyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".authentication.CreateOrJoinActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".authentication.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <receiver android:name=".alarm.MissionAlarmReceiver" />
+        <receiver android:name=".alarm.OrderNotifications" />
+        <receiver android:name=".alarm.OrderCompletedNotifications" />
+        <receiver android:name=".alarm.MembershipNotification" />
+        <receiver android:name=".alarm.ChatNotifications" />
+    </application>
+
+</manifest>

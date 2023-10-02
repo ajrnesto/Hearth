@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutPomodoroActivityParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".activities.PomodoroActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonClose"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_baseline_close_24"
+        app:iconTint="@color/red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewWhatIsPomodoro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Current mission:"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCardView"
+        app:layout_constraintStart_toStartOf="@+id/materialCardView" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialButtonClose"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:strokeWidth="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageViewMissionImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:paddingEnd="14dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewMissionTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/opensans_regular"
+                android:text="Mission Name"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textViewMissionDescription"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toEndOf="@+id/imageViewMissionImage"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/textViewMissionDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_light"
+                android:maxLines="1"
+                android:text="Mission Description"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewMissionTitle"
+                app:layout_constraintTop_toBottomOf="@+id/textViewMissionTitle"
+                app:layout_goneMarginEnd="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textViewMissionReward"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/light_orange" />
+
+            <TextView
+                android:id="@+id/textViewMissionReward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:paddingLeft="5dp"
+                android:text="0"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_medium"
+        android:text="20:00"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBarTimer"
+        app:layout_constraintEnd_toEndOf="@+id/progressBarTimer"
+        app:layout_constraintStart_toStartOf="@+id/progressBarTimer"
+        app:layout_constraintTop_toTopOf="@+id/progressBarTimer" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBarTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="96dp"
+        app:trackCornerRadius="10dp"
+        android:max="5000"
+        android:progress="10000"
+        app:indicatorSize="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialButtonFinish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+        app:trackColor="@color/light_gray"
+        app:trackThickness="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonFinish"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Finish Mission"
+        android:textColor="@android:color/holo_green_dark"
+        app:icon="@drawable/ic_baseline_check_24"
+        app:iconTint="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/materialButtonStart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@android:color/holo_green_dark" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Start"
+        app:icon="@drawable/ic_baseline_play_arrow_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/materialButtonFinish" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Pause"
+        android:visibility="invisible"
+        app:icon="@drawable/ic_baseline_pause_24"
+        app:layout_constraintBottom_toBottomOf="@+id/materialButtonStart"
+        app:layout_constraintEnd_toEndOf="@+id/materialButtonStart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/materialButtonStart"
+        app:layout_constraintTop_toTopOf="@+id/materialButtonStart" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Resume"
+        android:visibility="invisible"
+        app:icon="@drawable/ic_baseline_play_arrow_24"
+        app:layout_constraintBottom_toBottomOf="@+id/materialButtonStart"
+        app:layout_constraintEnd_toEndOf="@+id/materialButtonStart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/materialButtonStart"
+        app:layout_constraintTop_toTopOf="@+id/materialButtonStart" />
+
+    <ImageView
+        android:id="@+id/imageViewPomoProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_outline_circle_24"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPomoProgress2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/progressBarTimer"
+        app:layout_constraintTop_toBottomOf="@+id/progressBarTimer"
+        app:tint="@color/indigo_tone" />
+
+    <ImageView
+        android:id="@+id/imageViewPomoProgress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_outline_circle_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPomoProgress1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPomoProgress3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPomoProgress1"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPomoProgress1"
+        app:tint="@color/indigo_tone" />
+
+    <ImageView
+        android:id="@+id/imageViewPomoProgress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_outline_circle_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPomoProgress1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPomoProgress4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPomoProgress2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPomoProgress1"
+        app:tint="@color/indigo_tone" />
+
+    <ImageView
+        android:id="@+id/imageViewPomoProgress4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_outline_circle_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPomoProgress1"
+        app:layout_constraintEnd_toEndOf="@+id/progressBarTimer"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPomoProgress3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPomoProgress1"
+        app:tint="@color/indigo_tone" />
+
+    <TextView
+        android:id="@+id/textViewPomoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/opensans_regular"
+        android:text="Focus"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPomoProgress1"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPomoProgress1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPomoProgress1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

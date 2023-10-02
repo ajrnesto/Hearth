@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "819423201472",
+    "firebase_url": "https://hearth-48b4a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hearth-48b4a",
+    "storage_bucket": "hearth-48b4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819423201472:android:1ca9bbf037ddc7822cc525",
+        "android_client_info": {
+          "package_name": "com.hearth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819423201472-shn577514houkv9ciejd27644q8gq6g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa-kUv8cIEteasXOzcDI8c0zkjWEVzZXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819423201472-shn577514houkv9ciejd27644q8gq6g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

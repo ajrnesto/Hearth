@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_hearth_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/drawable/rounded_corners.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/font/nexa.xml" value="0.2263888888888889" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_create_family.xml" value="0.22447916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_create_or_join.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/layout/create_or_join.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/layout/sign_up.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/mipmap-anydpi-v26/ic_hearth.xml" value="0.11614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Hearth/app/src/main/res/mipmap-anydpi-v26/ic_hearth_round.xml" value="0.11614583333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable-v24/rounded_corners_light.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/baseline_chat_24.xml" value="0.124" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/baseline_visibility_off_24.xml" value="0.1855" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic__shopping_cart.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_add_circle.xml" value="0.171" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_arrow_back.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_arrow_back_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_arrow_down.xml" value="0.240625" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.240625" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.156" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml" value="0.156" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_baseline_keyboard_double_arrow_up_24.xml" value="0.156" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_content_copy.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_edit.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_family.xml" value="0.22205128205128205" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_logout.xml" value="0.22205128205128205" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_menu.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_missions.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_more_vertical.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_outline_delete_forever_24.xml" value="0.171" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_person.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/ic_shop.xml" value="0.104" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/line_border_bottom_top.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_add_moderator_24.xml" value="0.231" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_arrow_back_ios_24.xml" value="0.1535" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_arrow_forward_24.xml" value="0.166" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_cancel_24.xml" value="0.189" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_chat_24.xml" value="0.124" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_history_24.xml" value="0.1855" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_notes_24.xml" value="0.1435" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_person_remove_24.xml" value="0.118" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_remove_moderator_24.xml" value="0.231" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_send_24.xml" value="0.206" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_star_outline_24.xml" value="0.231" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/outline_trending_flat_24.xml" value="0.166" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/rounded_corners.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/rounded_corners_dark.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/rounded_corners_negative.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/drawable/sharp_corners_light.xml" value="0.22552083333333334" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout-v31/activity_shop.xml" value="0.22447916666666667" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/actionbar_main.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_add_item.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_add_mission.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_admin_missions.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_alarm.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_browse_image.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_chat.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_create_family.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_create_or_join.xml" value="0.18" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_edit_family_details.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_edit_family_member.xml" value="0.22447916666666667" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_edit_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_edit_profile.xml" value="0.18" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_family.xml" value="0.33" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_image_browser.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_join_family.xml" value="0.14" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_leaderboards.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_main_admin.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_manage_item.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_manage_mission.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_menu_new.xml" value="0.13223684210526315" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_mission_image_browser.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_mission_logs.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_missions.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_orders.xml" value="0.33" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_pomodoro.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_request_join.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_shop.xml" value="0.75" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_chat.xml" value="0.67" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_family_icons.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_family_member.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_join_request.xml" value="0.33" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_leaderboadr.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_leaderboard.xml" value="0.33" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_mission.xml" value="0.33" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_mission_image.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_mission_logs.xml" value="0.33" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_missionlogs.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_orders.xml" value="0.22" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_profile_pictures.xml" value="0.19953703703703704" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_reward_image.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/cardview_shop_item.xml" value="0.2986577181208054" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/fragment_admin_menu.xml" value="0.25" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/fragment_admin_missions.xml" value="0.17255434782608695" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/fragment_admin_shop.xml" value="0.17255434782608695" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/fragment_loading.xml" value="0.18141592920353983" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/fragment_shop_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/fragment_shop_orders.xml" value="0.22447916666666667" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/layout_loading.xml" value="0.2" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/layout/progress_dialog.xml" value="0.18" />
+        <entry key="..\:/TempFiles/AndroidStudioProjects/Hearth/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
